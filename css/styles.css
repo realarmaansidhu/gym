@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Recursive', sans-serif;
+    background-image: url("../img/model.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+}
+
+.nav {
+    width: 100vw;
+}
+
+.left {
+    float: left;
+}
+
+.left img {
+    display: block;
+    width: 200px;
+    margin: auto;
+    filter: invert(100%);
+}
+
+.left div {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
+
+.navbar {
+    float: left;
+}
+
+.navbar ul {
+    list-style-type: none;
+}
+
+.navbar ul li {
+    float: left;
+    margin: 20px 30px;
+    font-size: 2.5rem;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover,
+.navbar ul li a.active {
+    color: grey;
+    text-decoration: underline;
+}
+
+.right {
+    float: right;
+}
+
+.btn {
+    font-size: 1rem;
+    margin: 30px 10px;
+    background-color: black;
+    color: white;
+    padding: 4px 19px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: aliceblue;
+}
+
+.container {
+    border: 2px solid white;
+    clear: both;
+    position: absolute;
+    top: 250px;
+    right: 50px;
+    width: 40%;
+    height: 55vh;
+    padding: 50px;
+    border-radius: 28px;
+}
+
+.container h1 {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.form-inputs input {
+    font-family: 'Recursive', sans-serif;
+    text-align: center;
+    display: block;
+    width: 500px;
+    margin: 11px auto;
+    padding: 1px;
+    font-size: 1.5rem;
+    border-radius: 8px;
+    border: 2px solid black;
+}
+
+.container button {
+    display: block;
+    margin: auto;
+    border: 2px solid white;
+    width: 500px;
+    margin-top: 30px;
+}
